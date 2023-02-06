@@ -1,0 +1,33 @@
+.dsf-form-container {
+    width: 100%;
+    background-color: var(--dsf-color-font-primary);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.dsf-form-control input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.dsf-form-control input::placeholder {
+    font-size: 16px;
+    color: var(--dsf-color-font-tertiary);
+}
+
+.dsf-form-control button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--dsf-color-font-secondary);
+    color: var(--dsf-color-font-primary);
+    border: none; 
+    border-radius: 5px;
+    margin: 20px 0 20px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}

@@ -1,0 +1,18 @@
+header {
+  height: 70px;
+  background-color: var(--dsf-color-bg-secondary);
+  color: var(--dsf-color-font-primary);
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dsf-count-products {
+    font-size: 12px;
+    font-weight: 700;
+}
