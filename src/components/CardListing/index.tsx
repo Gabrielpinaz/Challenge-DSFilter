@@ -1,11 +1,16 @@
+import { ProductDTO } from "../../models/product";
 import "./styles.css"
 
-export default function CardListing() {
+type Props = {
+    product?: ProductDTO;
+};
+
+export default function CardListing({ product }: Props) {
     return (
-        <div className="dsf-card-listing-container container mt20 mb20">
+        <div className="container">
             <div className="dsf-card-style">
-                <h3>PC Gamer Pro</h3>
-                <h2>R$ 1200.00</h2>
+                <h3>{product?.name}</h3>
+                <h2>R$ {product?.price.toFixed(2)}</h2>
             </div>
         </div>
     );
