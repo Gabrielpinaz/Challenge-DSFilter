@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Header from "./components/Header";
 import ListingBody from "./components/ListingBody";
 import { ContextProductCount } from "./utils/context-product";
 
@@ -9,6 +10,7 @@ export default function App() {
     <ContextProductCount.Provider
       value={{ contextProductCount, setContextProductCount }}
     >
+      <Header />
       <ListingBody />
     </ContextProductCount.Provider>
   );

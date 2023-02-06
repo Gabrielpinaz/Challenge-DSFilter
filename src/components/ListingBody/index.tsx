@@ -34,7 +34,6 @@ export default function ListingBody() {
   
     return (
       <> 
-        <Header />
         <main>
           <section id="filter-section">
             <CardFilter onFilter={handleFilter} />
