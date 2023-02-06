@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 export type ContextProductCountType = {
   contextProductCount: number;
-  setContextProductCount: (ContextProductCount: number) => void;
+  setContextProductCount: (contextProductCount: number) => void;
 };
 
 export const ContextProductCount = createContext<ContextProductCountType>({
